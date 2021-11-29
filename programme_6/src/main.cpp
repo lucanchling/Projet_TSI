@@ -33,6 +33,7 @@
  *
  \*****************************************************************************/
 
+float r;
 //identifiant du shader
 GLuint shader_program_id;
 
@@ -69,6 +70,9 @@ static void init()
 
   unsigned int index[]={0,1,2,
     0,1,3};
+  //calcul du rayon en fonction des cotés du triangle
+  r=;
+
 
   //attribution d'une liste d'état (1 indique la création d'une seule liste)
   glGenVertexArrays(1, &vao);
