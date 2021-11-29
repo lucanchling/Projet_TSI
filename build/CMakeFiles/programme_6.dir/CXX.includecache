@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../tools/glhelper.hpp
+string
+-
+GL/glew.h
+-
+
+../tools/mat4.hpp
+iostream
+-
+
+/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_6/src/main.cpp
+iostream
+-
+cstdlib
+-
+cstdio
+-
+cmath
+-
+GL/glew.h
+-
+OpenGL/gl3.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_6/src/glhelper.hpp
+mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_6/src/mat4.hpp
+
