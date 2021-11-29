@@ -28,10 +28,10 @@
 
 /*****************************************************************************\
  * Variables globales
- *
- *
+ * 
  \*****************************************************************************/
-
+double time_count = 0; //Compteur de temps (en s)
+int delta_t = 100; //Variation de temps (en ms) 
 //identifiant du shader
 GLuint shader_program_id;
 
@@ -54,7 +54,7 @@ static void init()
 static void display_callback()
 {
   //effacement des couleurs du fond d'ecran
-  glClearColor(0.5f, 0.6f, 0.9f, 1.0f); CHECK_GL_ERROR();
+  glClearColor(abs(sin(time_count*2*M_PI)), abs(cos(time_count*2*M_PI)), abs(0.5*sin(time_count*2*M_PI)+0.5*cos(time_count*2*M_PI)), 1.0f); CHECK_GL_ERROR();
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); CHECK_GL_ERROR();
 
   //Changement de buffer d'affichage pour eviter un effet de scintillement
@@ -85,11 +85,18 @@ static void keyboard_callback(unsigned char key, int, int)
  \*****************************************************************************/
 static void timer_callback(int)
 {
+  
   //demande de rappel de cette fonction dans 25ms
-  glutTimerFunc(25, timer_callback, 0);
+  glutTimerFunc(delta_t, timer_callback, 0);
 
   //reactualisation de l'affichage
   glutPostRedisplay();
+
+  //std::cout<<time_count<<std::endl;
+
+  //Réactualisation de la variable globale pour le temps
+  time_count = time_count + delta_t*pow(10,-3);
+
 }
 
 int main(int argc, char** argv)

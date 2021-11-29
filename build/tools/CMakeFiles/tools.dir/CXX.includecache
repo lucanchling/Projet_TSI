@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_obj.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_obj.cpp
 mesh_io_obj.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_obj.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_obj.hpp
 ../mesh.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mesh.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mesh.hpp
 sstream
 -
 fstream
@@ -22,19 +22,19 @@ map
 cstdlib
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_obj.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_obj.hpp
 vector
 -
 ../vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.hpp
 ../vec2.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec2.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_off.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_off.cpp
 mesh_io_off.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_off.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_off.hpp
 ../mesh.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mesh.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mesh.hpp
 iostream
 -
 fstream
@@ -42,11 +42,11 @@ fstream
 sstream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_off.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_off.hpp
 string
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/glhelper.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/glhelper.cpp
 ctime
 -
 chrono
@@ -56,41 +56,41 @@ iostream
 fstream
 -
 glhelper.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/glhelper.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/glhelper.hpp
 string
 -
 GL/glew.h
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/image.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/image.hpp
 string
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mat4.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mat4.cpp
 cmath
 -
 cstdlib
 -
 mat4.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mat4.hpp
 vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mat4.hpp
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mesh.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mesh.cpp
 mesh.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mesh.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mesh.hpp
 mat4.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mat4.hpp
 format/mesh_io_obj.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_obj.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_obj.hpp
 format/mesh_io_off.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/format/mesh_io_off.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/format/mesh_io_off.hpp
 cstdlib
 -
 fstream
@@ -106,19 +106,19 @@ cmath
 algorithm
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/mesh.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/mesh.hpp
 vertex_opengl.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vertex_opengl.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vertex_opengl.hpp
 triangle_index.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/triangle_index.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/triangle_index.hpp
 vector
 -
 string
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/stb_image.h
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/stb_image.h
 stb_image.h
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/stb_image.h
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/stb_image.h
 stdio.h
 -
 stdlib.h
@@ -148,17 +148,17 @@ intrin.h
 arm_neon.h
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/tga.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/tga.cpp
 stb_image.h
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/stb_image.h
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/stb_image.h
 image.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/image.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/image.hpp
 fstream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/triangle_index.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/triangle_index.cpp
 triangle_index.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/triangle_index.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/triangle_index.hpp
 cmath
 -
 cassert
@@ -166,11 +166,11 @@ cassert
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/triangle_index.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/triangle_index.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec2.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec2.cpp
 vec2.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec2.hpp
 cmath
 -
 cassert
@@ -178,13 +178,13 @@ cassert
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec2.hpp
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.cpp
 vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.hpp
 cmath
 -
 cassert
@@ -192,17 +192,17 @@ cassert
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.hpp
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vertex_opengl.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vertex_opengl.cpp
 vertex_opengl.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vertex_opengl.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vertex_opengl.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vertex_opengl.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vertex_opengl.hpp
 vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec3.hpp
 vec2.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools/vec2.hpp
 

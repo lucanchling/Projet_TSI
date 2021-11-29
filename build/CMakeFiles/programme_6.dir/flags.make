@@ -6,5 +6,5 @@ CXX_FLAGS =   -g -Wall -Wextra -Wno-comment -Wno-unused-parameter -Wno-unused-fu
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools 
+CXX_INCLUDES = -I/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools 
 

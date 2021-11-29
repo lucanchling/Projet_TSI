@@ -26,7 +26,7 @@ iostream
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/main.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/main.cpp
 iostream
 -
 cstdlib
@@ -44,13 +44,13 @@ GLUT/glut.h
 GL/glut.h
 -
 glhelper.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/glhelper.hpp
 mat4.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/mat4.hpp
 vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/vec3.hpp
 vec2.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/vec2.hpp
 triangle_index.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_7/src/triangle_index.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_7/src/triangle_index.hpp
 

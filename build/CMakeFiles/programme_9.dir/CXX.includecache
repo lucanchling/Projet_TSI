@@ -36,7 +36,7 @@ vec3.hpp
 vec2.hpp
 ../tools/vec2.hpp
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/main.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/main.cpp
 iostream
 -
 cstdlib
@@ -54,17 +54,17 @@ GLUT/glut.h
 GL/glut.h
 -
 glhelper.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/glhelper.hpp
 mat4.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/mat4.hpp
 vec3.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/vec3.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/vec3.hpp
 vec2.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/vec2.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/vec2.hpp
 triangle_index.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/triangle_index.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/triangle_index.hpp
 vertex_opengl.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/vertex_opengl.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/vertex_opengl.hpp
 image.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_9/src/image.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_9/src/image.hpp
 

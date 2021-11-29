@@ -16,7 +16,7 @@ GL/glew.h
 iostream
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_4/src/main.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_4/src/main.cpp
 iostream
 -
 cstdlib
@@ -34,7 +34,7 @@ GLUT/glut.h
 GL/glut.h
 -
 glhelper.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_4/src/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_4/src/glhelper.hpp
 mat4.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_4/src/mat4.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_4/src/mat4.hpp
 

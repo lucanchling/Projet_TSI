@@ -12,7 +12,7 @@ string
 GL/glew.h
 -
 
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_1/src/main.cpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_1/src/main.cpp
 iostream
 -
 cstdlib
@@ -30,5 +30,5 @@ GLUT/glut.h
 GL/glut.h
 -
 glhelper.hpp
-/fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/programme_1/src/glhelper.hpp
+/fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/programme_1/src/glhelper.hpp
 

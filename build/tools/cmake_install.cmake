@@ -1,4 +1,4 @@
-# Install script for directory: /fs03/share/users/luc.anchling/home/Documents/TSI/tp_tsi/tools
+# Install script for directory: /fs03/share/users/luc.anchling/home/Documents/TSI/Projet_TSI/tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
