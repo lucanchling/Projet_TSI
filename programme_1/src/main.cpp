@@ -82,12 +82,16 @@ static void display_callback()
   //glClearColor(abs(sin(time_count*2*M_PI)), abs(cos(time_count*2*M_PI)), abs(0.5*sin(time_count*2*M_PI)+0.5*cos(time_count*2*M_PI)), 1.0f); 
   glClearColor(0.3f, 0.2f, 0.6f, 1.0f);CHECK_GL_ERROR();
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); CHECK_GL_ERROR();
-  //glDrawArrays(GL_LINE_LOOP, 0, 3); CHECK_GL_ERROR();
+  glDrawArrays(GL_TRIANGLES, 0, 3); CHECK_GL_ERROR();
   //GL_LINE_LOOP trace que le contour du triangle sinon GL_TRIANGLES affiche tout le triangle même l'intérieur
+  
+  //affichage maillage fil de fer 
+  /*
   glPointSize(5.0);
   glDrawArrays(GL_POINTS, 0, 3);
   glDrawArrays(GL_LINE_LOOP, 0, 3);
   CHECK_GL_ERROR();
+  */
   //Changement de buffer d'affichage pour eviter un effet de scintillement
   glutSwapBuffers();
 }
