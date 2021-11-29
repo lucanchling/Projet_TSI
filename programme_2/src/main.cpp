@@ -31,7 +31,9 @@
  *
  *
  \*****************************************************************************/
-
+double time_count = 0; //Compteur de temps (en s)
+int delta_t = 100; //Variation de temps (en ms)
+float translation_x = 0.0f; // Passage en globale parce que y a la flemme
 //identifiant du shader
 GLuint shader_program_id;
 
@@ -82,10 +84,15 @@ static void display_callback()
   //effacement des couleurs du fond d'ecran
   glClearColor(0.5f, 0.6f, 0.9f, 1.0f); CHECK_GL_ERROR();
   glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); CHECK_GL_ERROR();
+  
+  float translation_y=0.2f;
+  float translation_z=0.999f;
 
-  float translation_x=0.0f;
-  float translation_y=0.0f;
-  float translation_z=0.0f;
+  // Gestion translation en X
+  if (translation_x<0.2f)
+  translation_x+=0.01f;
+  else
+  translation_x=-1.0f;
 
   GLint loc_translation = glGetUniformLocation(shader_program_id, "translation"); CHECK_GL_ERROR();
   if (loc_translation == -1) std::cerr << "Pas de variable uniforme : translation" << std::endl;
@@ -122,10 +129,13 @@ static void keyboard_callback(unsigned char key, int, int)
 static void timer_callback(int)
 {
   //demande de rappel de cette fonction dans 25ms
-  glutTimerFunc(25, timer_callback, 0);
+  glutTimerFunc(delta_t, timer_callback, 0);
 
   //reactualisation de l'affichage
   glutPostRedisplay();
+
+  //Réactualisation de la variable globale pour le temps
+  time_count = time_count + delta_t*pow(10,-3);
 }
 
 int main(int argc, char** argv)
