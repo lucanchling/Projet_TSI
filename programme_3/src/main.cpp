@@ -31,7 +31,10 @@
  *
  *
  \*****************************************************************************/
-
+bool left=false;
+bool right=false;
+bool up=false;
+bool down=false;
 //identifiant du shader
 GLuint shader_program_id;
 
@@ -123,20 +126,58 @@ static void keyboard_callback(unsigned char key, int, int)
  \*****************************************************************************/
 static void special_callback(int key, int,int)
 {
-  float dL=0.01f;
+  
   switch (key)
   {
     case GLUT_KEY_UP:
-      translation_y+=dL; //rotation avec la touche du haut
+      //translation_y+=dL; //rotation avec la touche du haut
+      up = true;
       break;
     case GLUT_KEY_DOWN:
-      translation_y-=dL; //rotation avec la touche du bas
+      //translation_y-=dL; //rotation avec la touche du bas
+      down = true;
       break;
     case GLUT_KEY_LEFT:
-      translation_x-=dL; //rotation avec la touche de gauche
+      //translation_x-=dL; //rotation avec la touche de gauche
+      left = true;
       break;
     case GLUT_KEY_RIGHT:
-      translation_x+=dL; //rotation avec la touche de droite
+      //translation_x+=dL; //rotation avec la touche de droite
+      right = true;
+      break;
+  }
+}
+
+static void deplacement() 
+{
+  float dL=0.01f;
+  if (left==true) translation_x-=dL;
+  if (right==true) translation_x+=dL;
+  if (up==true) translation_y+=dL;
+  if (down==true) translation_y-=dL;
+
+}
+
+static void special_relache(int key, int,int)
+{
+
+  switch (key)
+  {
+    case GLUT_KEY_UP:
+      //translation_y+=dL; //rotation avec la touche du haut
+      up = false;
+      break;
+    case GLUT_KEY_DOWN:
+      //translation_y-=dL; //rotation avec la touche du bas
+      down = false;
+      break;
+    case GLUT_KEY_LEFT:
+      //translation_x-=dL; //rotation avec la touche de gauche
+      left = false;
+      break;
+    case GLUT_KEY_RIGHT:
+      //translation_x+=dL; //rotation avec la touche de droite
+      right = false;
       break;
   }
 }
@@ -150,6 +191,7 @@ static void timer_callback(int)
   //demande de rappel de cette fonction dans 25ms
   glutTimerFunc(25, timer_callback, 0);
 
+  deplacement();
   //reactualisation de l'affichage
   glutPostRedisplay();
 }
@@ -178,6 +220,8 @@ int main(int argc, char** argv)
   //Fonction de gestion du clavier
   glutKeyboardFunc(keyboard_callback);
 
+  // Lorsque l'on relache la touche
+  glutSpecialUpFunc(special_relache);
   //Fonction des touches speciales du clavier (fleches directionnelles)
   glutSpecialFunc(special_callback);
 
