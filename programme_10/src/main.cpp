@@ -177,6 +177,7 @@ static void keyboard_callback(unsigned char key, int, int)
 {
   float d_angle=0.1f;
   float dz=0.5f;
+  float dL=0.03f;
 
   //quitte le programme si on appuie sur les touches 'q', 'Q', ou 'echap'
   //enregistre l'image si on appuie sur la touche 'p'
@@ -220,6 +221,22 @@ static void keyboard_callback(unsigned char key, int, int)
     case 'd':
       transformation_view.translation.z -= dz;
       break;
+
+
+
+    case '8':
+      transformation_model_3.translation.y -= dL;
+      break; 
+    case '2':
+      transformation_model_3.translation.y += dL;
+      break; 
+
+    case '4':
+      transformation_model_3.translation.x += dL;
+      break; 
+    case '6':
+      transformation_model_3.translation.x -= dL;
+      break;       
   }
 
   transformation_model_1.rotation = matrice_rotation(angle_y_model_1 , 0.0f,1.0f,0.0f) * matrice_rotation(angle_x_model_1 , 1.0f,0.0f,0.0f);
@@ -263,6 +280,7 @@ static void special_callback(int key, int,int)
   {
     case GLUT_KEY_UP:
       transformation_model_1.translation.y += dL; //rotation avec la touche du haut
+      
       break;
     case GLUT_KEY_DOWN:
       transformation_model_1.translation.y -= dL; //rotation avec la touche du bas
