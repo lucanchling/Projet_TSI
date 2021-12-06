@@ -6,6 +6,7 @@ out vec4 color;
 in vec3 coordonnee_3d;
 in vec3 coordonnee_3d_locale;
 in vec3 vnormale;
+in vec4 vcouleur;
 
 vec3 light = vec3(0.5,0.5,5.0);
 
@@ -24,6 +25,6 @@ void main (void)
   vec4 white = vec4(1.0,1.0,1.0,0.0);
   vec4 color_final = vec4(1.0,0.5,0.5,0.0);
 
-  color = (ambiant+diffuse)*color_final+specular*white;
+  color = vcouleur;
 
 }

@@ -14,7 +14,7 @@ void main (void)
 
   //calcul du rayon en fonction des cotés du triangle
   float r=(2-sqrt(2.0))/2;
-  if((x-r)*(x-r)+(y-r)*(y-r)<(r*r))
+  if((x-r)*(x-r)+(y-r)*(y-r))<(r*r))
     discard;
   color = vec4(x,y,z,1.0);
 }
