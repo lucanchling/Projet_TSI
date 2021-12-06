@@ -50,4 +50,7 @@ void main (void)
 
   //coordonnees de textures
   vtex=tex;
+
+
+
 }
