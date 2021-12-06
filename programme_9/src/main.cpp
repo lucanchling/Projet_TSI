@@ -249,6 +249,24 @@ static void display_callback()
   //affichage
   glDrawElements(GL_TRIANGLES, 3*2, GL_UNSIGNED_INT,0);                          CHECK_GL_ERROR();
 
+
+  //OBJET 3//
+  //************************************************************//
+
+  //envoie des parametres (rotation,translation) sur la carte graphique pour l'objet 2
+  
+  // l'objet 3 ne bouge pas: la rotation est donnee par la matrice identitee
+  glUniformMatrix4fv(loc_rotation,1,false,pointeur(identity));                   CHECK_GL_ERROR();
+  // l'objet 3 ne bouge pas: la translation une valeur fixe
+  glUniform4f(loc_translation, translation_x+0.2f, 0.0f, -3.0f, 0.0f);                        CHECK_GL_ERROR();
+
+  //affichage
+  glDrawElements(GL_TRIANGLES, 3*2, GL_UNSIGNED_INT,0);                          CHECK_GL_ERROR();
+
+
+
+
+
   //Changement de buffer d'affichage pour eviter un effet de scintillement
   glutSwapBuffers();
 }
