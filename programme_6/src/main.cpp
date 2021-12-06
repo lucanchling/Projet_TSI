@@ -70,8 +70,7 @@ static void init()
 
   unsigned int index[]={0,1,2,
     0,1,3};
-  //calcul du rayon en fonction des cotés du triangle
-  r=;
+
 
 
   //attribution d'une liste d'état (1 indique la création d'une seule liste)
@@ -112,7 +111,7 @@ static void init()
   glUniformMatrix4fv(loc_projection,1,false,pointeur(projection)); CHECK_GL_ERROR();
 
   //activation de la gestion de la profondeur
-  glEnable(GL_DEPTH_TEST); CHECK_GL_ERROR();
+  glDisable(GL_DEPTH_TEST); CHECK_GL_ERROR();
 }
 
 //Fonction d'affichage
